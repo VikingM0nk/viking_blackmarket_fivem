@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Black Market</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="blackmarket-container">
+
+        <!-- HEADER -->
+        <div class="market-header">
+            <div id="marketName">BLACK MARKET</div>
+            <button class="close-btn" onclick="closeUI()">X</button>
+        </div>
+
+        <!-- BODY (ITEMS + CART SPLIT) -->
+        <div class="market-body">
+
+            <!-- ITEMS SECTION -->
+            <div class="items-container">
+                <!-- Items are dynamically inserted here by script.js -->
+            </div>
+
+            <!-- CART SECTION -->
+            <div class="cart-container">
+                <h3>Cart</h3>
+
+                <div id="cart-items">
+                    <!-- Cart items will be inserted here -->
+                </div>
+
+                <div class="cart-footer">
+                    <div id="cart-total">Total: $0</div>
+                    <button class="checkout-btn" onclick="checkout()">Checkout</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
